@@ -36,6 +36,7 @@
         @empty
         <li class="list-group-item text-center">C'est vide !</li>
         @endforelse
+        
       </ul>
     </div>
   </div>

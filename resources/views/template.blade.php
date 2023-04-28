@@ -37,9 +37,9 @@
       <a class="navbar-brand" href="#">Ma Todo List</a>
       <a class="nav-link" href="/a-propos">À propos</a>
     </nav>
+    @yield('content')
     @if(Session::has('message'))
     <p class="alert alert-danger">{{ Session::get('message') }}</p>
     @endif
-    @yield('content')
   </body>
 </html>
